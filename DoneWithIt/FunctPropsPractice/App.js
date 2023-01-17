@@ -1,15 +1,12 @@
+import React from 'react';
+import {View} from 'react-native';
+import componentOne from './componentOne';
 
-import {
-  StyleSheet,
-  Text,
-  View
-} from 'react-native';
-
-export default function App() {
+const App=()=> {
   return ( 
     <View>
-      <pageOne/>
       <ComponentOne name = "Lina" city = "Vanne" age = "33"/>
     </View>
   );
 }
+export default App;
