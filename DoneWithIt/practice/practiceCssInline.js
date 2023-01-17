@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { View,Text, StyleSheet } from 'react-native';
-import './practiceCssExternal';
-class practiceCss extends Component {
+
+class practiceCssInline extends Component {
     render() {
 
 
@@ -17,4 +17,4 @@ class practiceCss extends Component {
     }
 }
 
-export default practiceCss;
+export default practiceCssInline;

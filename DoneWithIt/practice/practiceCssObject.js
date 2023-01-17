@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { View,Text, StyleSheet } from 'react-native';
 
-class practiceCss extends Component {
+class practiceCssObject extends Component {
     render() {
 
       const myStyle = StyleSheet.create({
@@ -18,13 +18,13 @@ class practiceCss extends Component {
        })
 
         return (
-            <div>
+           
                 <View>
                    <Text style={myStyle.red}>Bangladesh</Text> // object css
                 </View>
-            </div>
+            
         );
     }
 }
 
-export default practiceCss;
+export default practiceCssObject;

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { View,Text, StyleSheet } from 'react-native';
 import customStyle from './practiceCssCustom';
 
-class practiceCss extends Component {
+class practiceCssExternal extends Component {
     render() {
 
 
@@ -18,4 +18,4 @@ class practiceCss extends Component {
     }
 }
 
-export default practiceCss;
+export default practiceCssExternal;

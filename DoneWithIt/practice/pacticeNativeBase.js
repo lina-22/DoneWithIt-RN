@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {Container,Header,Content,List,ListItem,Text } from 'react-base';
 
-class pactice extends Component {
+class pacticeNativeBase extends Component {
     render() {
         return (
             <Container>
@@ -29,4 +29,4 @@ class pactice extends Component {
     }
 }
 
-export default pactice;
+export default pacticeNativeBase;
