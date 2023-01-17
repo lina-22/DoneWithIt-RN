@@ -6,13 +6,13 @@ class practiceCssInline extends Component {
 
 
         return (
-            <div>
+           
                 <View>
 
                    <Text style={{color:'red', fontSize: 24}}>Bangladesh</Text> // inline css
                    
                 </View>
-            </div>
+          
         );
     }
 }

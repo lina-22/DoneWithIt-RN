@@ -1,6 +1,6 @@
 import React from 'react';
 import {View} from 'react-native';
-import componentOne from './componentOne';
+import ComponentOne from './ComponentOne';
 
 const App=()=> {
   return ( 

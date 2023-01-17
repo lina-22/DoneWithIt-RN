@@ -9,14 +9,14 @@ import fourComponent from '../componensts/fourComponent';
 class oneComponent extends Component {
     render() {
         return (
-            <div>
+     
                 <View>
                     <oneComponent/>
                     <twoComponent/>
                     <threeComponent/>
                     <fourComponent/>
                 </View>
-            </div>
+          
         );
     }
 }

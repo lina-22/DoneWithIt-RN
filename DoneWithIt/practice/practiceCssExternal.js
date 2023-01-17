@@ -7,13 +7,13 @@ class practiceCssExternal extends Component {
 
 
         return (
-            <div>
+          
                 <View>
 
                    <Text style={customStyle.red}>Bangladesh</Text>
                    
                 </View>
-            </div>
+          
         );
     }
 }

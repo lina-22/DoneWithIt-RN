@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
+import { View } from 'react-native';
 import ClsComponentOne from './ClsComponentOne';
 
 class App extends Component {
   render() {
     return (
-      <div>
+      <View>
          <ClsComponentOne name = "Lina" city = "Vanne" age = "33"/>
-      </div>
+      </View>
     );
   }
 }
