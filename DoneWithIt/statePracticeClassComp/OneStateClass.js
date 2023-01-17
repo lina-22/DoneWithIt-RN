@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { View, Text, Button } from 'react-native';
 
 
-class oneStateClass extends Component {
+class OneStateClass extends Component {
 
     state={
         name: "Lina",

@@ -9,18 +9,12 @@ const[state, setState] = useState({
     city : "Sarcelles"
 });
 
-const changeValue=()=>{
-    setState({name: "Haq", age: "32"})
-
-}
 
     return (
         <View>
             <Text>{state.age}</Text>
             <Text>{state.city}</Text>
             <Text></Text>
-
-            <Button onPress={changeValue} title='ClickeMe'/>
         </View>
     );
 };
