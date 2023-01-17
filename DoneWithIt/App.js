@@ -13,6 +13,8 @@ export default function App() {
     <Text> Open up App.js to start working on your app lina! HELLLLO </Text>
     <Text style = { styles.welcome}>Welcome to my first native ios app!!!</Text>
      <StatusBar style = "auto" / >
+
+      <pageOne/>
     </View>
   );
 }
