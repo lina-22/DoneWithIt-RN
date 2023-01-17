@@ -15,6 +15,7 @@ export default function App() {
      <StatusBar style = "auto" / >
 
       <pageOne/>
+      <ComponentOne name = "Lina" city = "Vanne" age = "33"/>
     </View>
   );
 }
