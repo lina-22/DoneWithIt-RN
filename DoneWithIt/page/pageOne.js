@@ -6,7 +6,7 @@ import threeComponent from '../componensts/threeComponent';
 import fourComponent from '../componensts/fourComponent';
 
 
-class oneComponent extends Component {
+class pageOne extends Component {
     render() {
         return (
      
@@ -21,4 +21,4 @@ class oneComponent extends Component {
     }
 }
 
-export default oneComponent;
+export default pageOne;
