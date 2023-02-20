@@ -15,6 +15,8 @@ class pageOne extends Component {
                     <twoComponent/>
                     <threeComponent/>
                     <fourComponent/>
+                    <threeComponent/>
+                    <fourComponent/>
                 </View>
           
         );
